@@ -1,0 +1,32 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "common chat with history, private chat, postgresql, redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-generic-session": "^2.0.1",
+    "koa-passport": "^4.1.1",
+    "koa-static": "^5.0.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.3",
+    "pg-format": "^1.0.4",
+    "pg-native": "^3.0.0",
+    "ws": "^6.0.0"
+  },
+  "engines": {
+    "node": "^8.12.0",
+    "npm": "5.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Globik/chat"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
